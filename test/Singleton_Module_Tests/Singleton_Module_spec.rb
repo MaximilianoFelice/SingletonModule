@@ -1,8 +1,6 @@
 require 'rspec'
 require "singleton_module"
 
-include SingletonModule
-
 describe 'Extend with Singleton Modules' do
 
   before(:all) do
