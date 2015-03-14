@@ -1,5 +1,5 @@
 require 'rspec'
-require "Singleton_Module_Behaviour"
+require "singleton_module"
 
 include SingletonModule
 
