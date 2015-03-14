@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'SingletonModule/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "SingletonModule"
+  spec.name          = "singleton_module"
   spec.version       = SingletonModule::VERSION
   spec.authors       = ["MaximilianoFelice"]
   spec.email         = ["maximilianofelice@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Singleton Module functionality for Ruby.}
+  spec.description   = %q{Provides a generic and transversal behaviour repository for objects.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
